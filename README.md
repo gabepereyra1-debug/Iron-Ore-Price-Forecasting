@@ -18,7 +18,7 @@ Two-year-ahead iron ore price forecasts combining a seaborne marginal cost curve
    ```
    pip install pandas numpy scipy statsmodels==0.15.0 openpyxl matplotlib python-docx plotly
    ```
-3. Put `iron_ore_forecasting.py` and `NPSC3001_RawData.xlsx` in the same folder.
+3. Put `iron_ore_forecasting.py` and `NPSC3000_RawData.xlsx` in the same folder.
 4. Run:
    ```
    python iron_ore_forecasting.py
