@@ -1,11 +1,11 @@
 """
 ===============================================================================
- IRON ORE PRICE FORECASTING: COST CURVE + VECM MODEL  (NPSC3000 / NPSC3001)
+ IRON ORE PRICE FORECASTING: COST CURVE + VECM MODEL  (NPSC3000)
 ===============================================================================
 
  What this script does, start to finish
  --------------------------------------
-   1. Reads the raw data workbook (NPSC3001_RawData.xlsx). It is opened
+   1. Reads the raw data workbook (NPSC3000_RawData.xlsx). It is opened
       READ-ONLY, and a fingerprint (SHA-256 hash) of the file is checked
       before and after the run to prove it was not changed.
    2. Builds the annual seaborne cost curve (2010-2035) and finds the
@@ -41,9 +41,9 @@
       report). Every other number is the same across versions.
       plotly is only used to embed the charting library inside the HTML file
       so the dashboard opens without internet.
-   2. Put NPSC3001_RawData.xlsx in the same folder as this script.
+   2. Put NPSC3000_RawData.xlsx in the same folder as this script.
    3. Run:   python iron_ore_forecasting.py
-      or     python iron_ore_forecasting.py "path/to/NPSC3001_RawData.xlsx"
+      or     python iron_ore_forecasting.py "path/to/NPSC3000_RawData.xlsx"
 ===============================================================================
 """
 
