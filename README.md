@@ -1,12 +1,12 @@
 # Iron Ore Price Forecasting: Marginal Cost Curve + VECM
 
-Two-year-ahead iron ore price forecasts combining a seaborne marginal cost curve with vector error correction models (VECMs). NPSC3000/NPSC3001 research project.
+Two-year-ahead iron ore price forecasts combining a seaborne marginal cost curve with vector error correction models (VECMs). NPSC3000 research project.
 
 ## Files
 
 | File | What it is |
 |---|---|
-| `NPSC3001_RawData.xlsx` | Input data: supply, costs, demand, prices, macro and government forecasts. Read only, never changed. |
+| `NPSC3000_RawData.xlsx` | Input data: supply, costs, demand, prices, macro and government forecasts. Read only, never changed. |
 | `iron_ore_forecasting.py` | The model. One script that runs the whole analysis. |
 | `Iron_Ore_Results.docx` | Output: every result table and chart. |
 | `Iron_Ore_Dashboard.html` | Output: interactive dashboard. Opens in any browser, works offline. |
