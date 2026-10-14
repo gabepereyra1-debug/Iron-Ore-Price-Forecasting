@@ -1,6 +1,6 @@
-# Iron Ore Price Forecasting: Cost Curve + VECM
+# Iron Ore Price Forecasting: Marginal Cost Curve + VECM
 
-Two-year-ahead iron ore price forecasts combining a seaborne cost curve with vector error correction models (VECMs). NPSC3000/NPSC3001 research project.
+Two-year-ahead iron ore price forecasts combining a seaborne marginal cost curve with vector error correction models (VECMs). NPSC3000/NPSC3001 research project.
 
 ## Files
 
